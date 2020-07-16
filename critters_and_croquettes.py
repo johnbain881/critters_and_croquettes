@@ -1,282 +1,22 @@
 # import the python datetime module to help us create a timestamp
-from datetime import date
-
-class Llama:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.walking = True
-        self.shift = "evening"
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-class Donkey:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.walking = True
-        self.shift = "evening"
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Goat:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.walking = True
-        self.shift = "midday"
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Sheep:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.walking = True
-        self.shift = "morning"
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Rabbit:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.walking = True
-        self.shift = "morning"
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Copperhead:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.slithering = True
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Rat_Snake:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.slithering = True
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Python:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.slithering = True
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Viper:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.slithering = True
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Anaconda:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.slithering = True
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Goldfish:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.swimming = True
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Mallard:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.swimming = True
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Koi:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.swimming = True
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Beta:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.swimming = True
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
-
-class Salmon:
-
-    def __init__(self, name, species, food):
-        # Establish the properties of each animal
-        # with a default value
-        self.name = name
-        self.species = species
-        self.date_added = date.today()
-        self.swimming = True
-        self.food = food
-
-    def feed(self):
-      print(f'{self.name} was fed {self.food} on {date.today().strftime("%m/%d/%Y")}')
-    
-    def __str__(self):
-        return f"{self.name} is a {self.species}"
-
+from attractions import Anaconda
+from attractions import Copperhead
+from attractions import Python
+from attractions import Rat_Snake
+from attractions import Viper
+from attractions import Beta
+from attractions import Goldfish
+from attractions import Koi
+from attractions import Mallard
+from attractions import Salmon
+from attractions import Donkey
+from attractions import Goat
+from attractions import Llama
+from attractions import Rabbit
+from attractions import Sheep
+from attractions import PettingZoo
+from attractions import SnakePit
+from attractions import Wetlands
 
 
 snake1 = Anaconda("snake1", "snake", "food")
@@ -295,4 +35,17 @@ walking_animal3 = Llama("walking_animal3", "mammal", "food")
 walking_animal4 = Rabbit("walking_animal4", "mammal", "food")
 walking_animal5 = Sheep("walking_animal5", "mammal", "food")
 
-print(fish2)
+
+petting_zoo = PettingZoo("Petting Zoo")
+snake_pit = SnakePit("Snake Pit")
+wetlands = Wetlands("Wetlands")
+
+petting_zoo.addAnimals([walking_animal1, walking_animal2, walking_animal3, walking_animal4, walking_animal5])
+snake_pit.addAnimals([snake1, snake2, snake3, snake4, snake5])
+wetlands.addAnimals([fish1, fish2, fish3, fish4, fish5])
+
+# print(fish2)
+
+print(petting_zoo)
+print(snake_pit)
+print(wetlands)
