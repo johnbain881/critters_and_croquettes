@@ -63,9 +63,9 @@ wetlands.add_animal(fish3)
 wetlands.add_animal(fish4)
 wetlands.add_animal(fish5)
 
-bob = Goose("Bob", "Canada goose", "watercress sandwiches", 16)
-bob.run()
-bob.swim()
+bob = Anaconda("Bob", "Canada goose", "watercress sandwiches", 16)
+# bob.run()
+# bob.swim()
 
 
 varmint_village = PettingZoo("Varmint Village", "critters that like to dig and scurry")
